@@ -1,0 +1,13 @@
+name: Autograde unavailable
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notice:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain assignment grading status
+        run: |
+          echo "No built-in autograder is configured for formative-2-part-2."
+          echo "This manual workflow does not grade or submit work."

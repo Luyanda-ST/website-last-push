@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait video preview</title>
+  <desc id="desc">Click to open the supplied vertical video.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#075b79"/><stop offset="1" stop-color="#10233b"/></linearGradient></defs>
+  <rect width="1200" height="675" rx="30" fill="url(#bg)"/>
+  <rect x="475" y="72" width="250" height="420" rx="34" fill="#eef9fc" stroke="#bce9f5" stroke-width="5"/>
+  <rect x="497" y="108" width="206" height="348" rx="18" fill="#d9f0f8"/>
+  <circle cx="600" cy="282" r="54" fill="#ffb400"/>
+  <path d="M585 249v66l56-33z" fill="#10233b"/>
+  <text x="600" y="548" text-anchor="middle" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#ffffff">Vertical video</text>
+  <text x="600" y="590" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#ccecf6">2160 × 3840 · click to play</text>
+</svg>
