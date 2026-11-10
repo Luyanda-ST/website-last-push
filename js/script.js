@@ -69,6 +69,13 @@
       status.replaceChildren();
     });
 
+    // Clear any message and field warnings when the form is reset.
+    form.addEventListener("reset", () => {
+      [nameField, emailField, phoneField, messageField].forEach((field) => field?.setCustomValidity(""));
+      status.hidden = true;
+      status.replaceChildren();
+    });
+
     form.addEventListener("submit", async (event) => {
       event.preventDefault();
       validateName();
